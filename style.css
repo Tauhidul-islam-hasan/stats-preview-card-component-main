@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    Font-size: 15px;
+    color: #fff;
+}
+
+span {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.attribution {
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 11px;
+    position: relative;
+    bottom: .5rem;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    background-color: hsl(244, 38%, 16%);
+    margin-top: 5rem;
+    border-radius: 1%;
+}
+
+.about {
+    padding-top: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.stat-headings {
+    color: hsl(0, 0%, 100%);
+}
+
+.main-paragraph {
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.img {
+    position: relative;
+    left: 12px;
+}
+
+.about-me {
+    padding-top: 2rem;
+}
+
+@media(max-width:1028px) {
+    .about {
+        text-align: center;
+    }
+
+    .img {
+        width: 460px;
+        position: absolute ;
+        
+        
+    }
+}
